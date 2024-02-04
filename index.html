@@ -4,10 +4,259 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My HTML Tag Cheatsheet</title>
-    <link rel="stylesheet" type="text/css" href="./styles/style.css"/>
     <link rel="stylesheet" type="text/css" href="./styles/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <section class="hero-banner">
+        <h1>Welcome To My HTML Cheatsheet</h1>
+        <p>This cheatsheet can be used to quickly remember different HTML tags</p>
+    </section>
+    <section class="html-category">
+        <h2>Document Structure</h2>
+        <p>These HTML tags define the structure of the document</p>
+        <table>
+            <tr>
+                <th>HTML Tag</th>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>&lt;html&gt;</td>
+                <td>HTML</td>
+                <td>Defines the root of an HTML document</td>
+            </tr>
+            <tr>
+                <td>&lt;head&gt;</td>
+                <td>Head</td>
+                <td>Contains meta-information about the HTML document</td>
+            </tr>
+            <tr>
+                <td>&lt;title&gt;</td>
+                <td>Title</td>
+                <td>Specifies the title of the HTML document</td>
+            </tr>
+            <tr>
+                <td>&lt;body&gt;</td>
+                <td>Body</td>
+                <td>Contains the content of the HTML document</td>
+            </tr>
+        </table>
+    </section>
+    <section class="html-category">
+        <h2>Text Formatting</h2>
+        <p>These HTML tags define specific text styles</p>
+        <table>
+            <tr>
+                <th>HTML Tag</th>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>&lt;h1&gt; - &lt;h6&gt;</td>
+                <td>Heading 1 - Heading 6</td>
+                <td>Defines the headers (headings) of different levels</td>
+            </tr>
+            <tr>
+                <td>&lt;p&gt;</td>
+                <td>Paragraph</td>
+                <td>Defines a paragraph</td>
+            </tr>
+            <tr>
+                <td>&lt;strong&gt;</td>
+                <td>Strong</td>
+                <td>Represents strong importance or bold text</td>
+            </tr>
+            <tr>
+                <td>&lt;em&gt;</td>
+                <td>Emphasis</td>
+                <td>Represents emphasised text or italic text</td>
+            </tr>
+            <tr>
+                <td>&lt;u&gt;</td>
+                <td>Underline</td>
+                <td>Represents underlined text</td>
+            </tr>
+        </table>
+    </section>
+    <section class="html-category">
+        <h2>Lists</h2>
+        <p>These HTML tags define how to create lists.</p>
+        <table>
+            <tr>
+                <th>HTML Tag</th>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>&lt;ul&gt;</td>
+                <td>Bulleted List</td>
+                <td>Creates an unordered (bulleted) list</td>
+            </tr>
+            <tr>
+                <td>&lt;ol&gt;</td>
+                <td>Numbered List</td>
+                <td>Creates an ordered (numbered) list</td>
+            </tr>
+            <tr>
+                <td>&lt;li&gt;</td>
+                <td>List Item</td>
+                <td>Defines a list item</td>
+            </tr>
+        </table>
+    </section>
+    <section class="html-category">
+        <h2>Links & Navigation</h2>
+        <p>These tags are used to link different things and define a navigation</p>
+        <table>
+            <tr>
+                <th>HTML Tag</th>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>&lt;a&gt;</td>
+                <td>Hyperlink</td>
+                <td>Defines a hyperlink</td>
+            </tr>
+            <tr>
+                <td>&lt;nav&gt;</td>
+                <td>Navigation</td>
+                <td>Defines a navigation bar</td>
+            </tr>
+        </table>
+    </section>
+    <section class="html-category">
+        <h2>Images</h2>
+        <p>This section defines the image tag</p>
+        <table>
+            <tr>
+                <th>HTML Tag</th>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>&lt;img&gt;</td>
+                <td>Image</td>
+                <td>Embeds an image onto the page</td>
+            </tr>
+        </table>
+    </section>
+    <section class="html-category">
+        <h2>Tables</h2>
+        <p>These HTML tags are used to create tables</p>
+        <table>
+            <tr>
+                <th>HTML Tag</th>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>&lt;table&gt;</td>
+                <td>Table</td>
+                <td>Defines a table</td>
+            </tr>
+            <tr>
+                <td>&lt;tr&gt;</td>
+                <td>Table Row</td>
+                <td>Defines the row of a table</td>
+            </tr>
+            <tr>
+                <td>&lt;th&gt;</td>
+                <td>Table Head</td>
+                <td>Defines the header cell of the table</td>
+            </tr>
+            <tr>
+                <td>&lt;td&gt;</td>
+                <td>Table Data</td>
+                <td>Defines a standard cell in the table</td>
+            </tr>
+        </table>
+    </section>
+    <section class="html-category">
+        <h2>Forms</h2>
+        <p>These tags are used to create forms</p>
+        <table>
+            <tr>
+                <th>HTML Tag</th>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>&lt;form&gt;</td>
+                <td>Form</td>
+                <td>Defines an HTML form for user input</td>
+            </tr>
+            <tr>
+                <td>&lt;input&gt;</td>
+                <td>Input</td>
+                <td>Creates an input field which can have multiple input types</td>
+            </tr>
+            <tr>
+                <td>&lt;textarea&gt;</td>
+                <td>Text Area</td>
+                <td>Defines a multi-line text input field</td>
+            </tr>
+            <tr>
+                <td>&lt;button&gt;</td>
+                <td>Button</td>
+                <td>Defines a clickable button</td>
+            </tr>
+        </table>
+    </section>
+    <section class="html-category">
+        <h2>Semantic Elements</h2>
+        <p>HTML tags to define the structure of web content</p>
+        <table>
+            <tr>
+                <th>HTML Tag</th>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>&lt;div&gt;</td>
+                <td>Div</td>
+                <td>Defines a division or section in an HTML document</td>
+            </tr>
+            <tr>
+                <td>&lt;span&gt;</td>
+                <td>Span</td>
+                <td>Defines an inline container for text</td>
+            </tr>
+            <tr>
+                <td>&lt;header&gt;</td>
+                <td>Header</td>
+                <td>Define structural element for a group of navigation elements</td>
+            </tr>
+            <tr>
+                <td>&lt;footer&gt;</td>
+                <td>Footer</td>
+                <td>Defines the footer section of the page</td>
+            </tr>
+            <tr>
+                <td>&lt;article&gt;</td>
+                <td>Article</td>
+                <td>Creates a standalone piece of content</td>
+            </tr>
+            <tr>
+                <td>&lt;section&gt;</td>
+                <td>Section</td>
+                <td>Defines a grouping of content with the page</td>
+            </tr>
+            <tr>
+                <td>&lt;main&gt;</td>
+                <td>Main</td>
+                <td>Represents the main content of the document</td>
+            </tr>
+            <tr>
+                <td>&lt;aside&gt;</td>
+                <td>Aside</td>
+                <td>Represents content aside from the content it is placed in</td>
+            </tr>
+        </table>
+    </section>
 </body>
 </html>
